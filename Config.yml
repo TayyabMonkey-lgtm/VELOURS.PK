@@ -1,0 +1,15 @@
+app:
+  name: "My Web Application"
+  environment: "production"
+  port: 8080
+
+# Feature flags toggling features on/off
+features:
+  beta_testing: true
+  dark_mode: false
+
+# Lists / Arrays
+allowed_regions:
+  - "us-east"
+  - "eu-west"
+  - "ap-south"
